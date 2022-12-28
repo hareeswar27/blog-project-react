@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.navhed{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.firlet{
+color: aqua;
+transform:rotate(60deg) ;
+}
+
+.hed1{
+  display: inline;
+}
+.fir1{
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+.tollypar{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    
+}
+
+.childparent{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto  ;
+    gap: 10PX;
+
+}
+.tollychild1{
+    
+    width: 500px;
+}
+.tollychild2{
+    width: 500px;
+    height: 200px;
+   
+}
+.inside{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+   
+}
+.childpar2{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.tollychild22{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.tollychild233{
+    height: 500px;
+    text-align: center;
+    border: 2px solid wheat;
+}
+
